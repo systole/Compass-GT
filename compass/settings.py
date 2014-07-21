@@ -2,6 +2,7 @@
 
 import os
 
-DEFAULT_THEME = {
+SETTINGS = {
 	'PATH': os.curdir,
+	'AIRCRAFT_MEDIA': os.path.join('media', '{filename}')
 	}
